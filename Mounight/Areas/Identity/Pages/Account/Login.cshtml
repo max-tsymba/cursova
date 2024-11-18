@@ -1,0 +1,38 @@
+﻿@page
+@model LoginModel
+
+@{
+    ViewData["Title"] = "Log in";
+    Layout = "~/Areas/Identity/Pages/_AuthLayout.cshtml";
+}
+
+<form id="account" class="auth__form" method="post">
+    <div class="auth__inner">
+        <h2 class="auth__header">Welcome back!</h2>
+        <h4 class="auth__subheader">Please enter your details</h4>
+        <div asp-validation-summary="ModelOnly" class="text-danger" role="alert"></div>
+
+        <div class="auth__form-group">
+
+            <div class="auth__input-group">
+                <label class="auth__input-label" asp-for="Input.Email">Email</label>
+                <input class="auth__input" asp-for="Input.Email" class="form-control" autocomplete="username" aria-required="true" placeholder="name@example.com" />
+                <span asp-validation-for="Input.Email" class="text-danger"></span>
+            </div>
+
+            <div class="auth__input-group">
+                <label class="auth__input-label" asp-for="Input.Password">Password</label>
+                <input class="auth__input" asp-for="Input.Password" class="form-control" autocomplete="new-password" aria-required="true" placeholder="password" />
+                <span asp-validation-for="Input.Password" class="text-danger"></span>
+            </div>
+
+            <div class="auth__info">Don't have an account? <a href="/Identity/Account/Register">Sign Up</a></div>
+        </div>
+
+        <button id="login-submit" type="submit" class="button__dark" style="width: 100%; cursor: pointer">Log in</button>
+   </div>
+
+</form>
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

@@ -1,0 +1,25 @@
+﻿@using Microsoft.AspNetCore.Identity
+@using Mounight.Areas.Identity.Data
+
+@inject SignInManager<AuthUser> SignInManager
+@inject UserManager<AuthUser> UserManager
+
+<div class="header__actions">
+@if (SignInManager.IsSignedIn(User))
+{
+    <div class="nav-item" style="font-size: 14px; opacity: 0.7;">
+            @UserManager.GetUserName(User)
+    </div>
+     <div class="nav-item" style="display: flex;align-items: center; gap: 30px;">
+          <div><a class="button__light" asp-controller="Image" asp-action="Upload">Upload</a></div>
+        <form id="logoutForm" class="form-inline" asp-area="Identity" asp-page="/Account/Logout" asp-route-returnUrl="@Url.Action("Index", "Home", new { area = "" })">
+                <button id="logout" type="submit" class="button__light" style="cursor: pointer; border: none; background-color: transparent; font-weight: 500; font-family: 'Roboto';">Logout</button>
+        </form>
+    </div>
+}
+else
+{
+     <a class="button__light"  href="/Identity/Account/Login">Log In</a>
+     <a class="button__dark"  href="/Identity/Account/Register">Sign In</a>
+}
+</div>

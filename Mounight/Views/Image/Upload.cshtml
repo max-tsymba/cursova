@@ -1,0 +1,23 @@
+﻿@model Mounight.Models.UploadImageModel
+
+<div>
+	<form asp-action="UploadNewImage" method="post" enctype="multipart/form-data" id="upload-form">
+		<div>
+			<label asp-for="Title"></label>
+			<input asp-for="Title" class="form-control" />
+		</div>
+		<div>
+			<label asp-for="Tags"></label>
+			<input asp-for="Tags" class="form-control" />
+		</div>
+		<div>
+			<label>
+				Browse for Image
+				<input type="file" name="file" style="display: none" />
+			</label>
+		</div>
+		<div>
+			<button type="submit" id="btn-upload">Submit</button>
+		</div>
+	</form>
+</div>

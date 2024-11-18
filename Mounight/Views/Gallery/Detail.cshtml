@@ -1,0 +1,17 @@
+﻿@model Mounight.Models.GalleryDetailModel
+
+<div class="container">
+	<div class="picture__group">
+		<div class="picture__info">
+			<div>@Model.Title</div>
+			<span>@Model.CreatedOn</span>
+		</div>
+
+		<div class="picture__actions">
+			<a class="button__light" asp-controller="Gallery" asp-action="Index">Back to Gallery</a>
+			<a class="button__dark" asp-controller="Gallery" asp-action="Index" style="width: 140px;">Download</a>
+		</div>
+	</div>
+	<div class="picture__top" style="background-image: url(@Model.Url)">
+	</div>
+</div>

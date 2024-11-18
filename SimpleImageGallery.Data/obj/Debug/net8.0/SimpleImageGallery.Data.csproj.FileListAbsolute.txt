@@ -1,0 +1,14 @@
+E:\VisualStudio Projects\Mounight\Mounight\SimpleImageGallery.Data\obj\Debug\net8.0\SimpleImageGallery.Data.csproj.AssemblyReference.cache
+E:\VisualStudio Projects\Mounight\Mounight\SimpleImageGallery.Data\obj\Debug\net8.0\SimpleImageGallery.Data.GeneratedMSBuildEditorConfig.editorconfig
+E:\VisualStudio Projects\Mounight\Mounight\SimpleImageGallery.Data\obj\Debug\net8.0\SimpleImageGallery.Data.AssemblyInfoInputs.cache
+E:\VisualStudio Projects\Mounight\Mounight\SimpleImageGallery.Data\obj\Debug\net8.0\SimpleImageGallery.Data.AssemblyInfo.cs
+E:\VisualStudio Projects\Mounight\Mounight\SimpleImageGallery.Data\obj\Debug\net8.0\SimpleImageGallery.Data.csproj.CoreCompileInputs.cache
+E:\VisualStudio Projects\Mounight\Mounight\SimpleImageGallery.Data\bin\Debug\net8.0\SimpleImageGallery.Data.deps.json
+E:\VisualStudio Projects\Mounight\Mounight\SimpleImageGallery.Data\bin\Debug\net8.0\SimpleImageGallery.Data.runtimeconfig.json
+E:\VisualStudio Projects\Mounight\Mounight\SimpleImageGallery.Data\bin\Debug\net8.0\SimpleImageGallery.Data.dll
+E:\VisualStudio Projects\Mounight\Mounight\SimpleImageGallery.Data\bin\Debug\net8.0\SimpleImageGallery.Data.pdb
+E:\VisualStudio Projects\Mounight\Mounight\SimpleImageGallery.Data\obj\Debug\net8.0\SimpleImageGallery.Data.dll
+E:\VisualStudio Projects\Mounight\Mounight\SimpleImageGallery.Data\obj\Debug\net8.0\refint\SimpleImageGallery.Data.dll
+E:\VisualStudio Projects\Mounight\Mounight\SimpleImageGallery.Data\obj\Debug\net8.0\SimpleImageGallery.Data.pdb
+E:\VisualStudio Projects\Mounight\Mounight\SimpleImageGallery.Data\obj\Debug\net8.0\SimpleImageGallery.Data.genruntimeconfig.cache
+E:\VisualStudio Projects\Mounight\Mounight\SimpleImageGallery.Data\obj\Debug\net8.0\ref\SimpleImageGallery.Data.dll
